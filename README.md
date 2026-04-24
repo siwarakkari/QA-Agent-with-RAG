@@ -1,8 +1,14 @@
 # Symbiote Learning App - RAG-based QA Engine
 
 A sophisticated Retrieval-Augmented Generation (RAG) system designed to provide precise answers based on a curated knowledge base (e.g., WWII history). This project features a robust **NestJS (Fastify)** backend and a modern **Next.js** frontend.
-<video src="./rag-qa-engine/images/demo.mp4" controls="controls" style="max-width: 100%;"></video>
-## 🚀 Project Overview
+
+
+
+
+
+
+
+## Project Overview
 
 The system implements a complete RAG pipeline:
 1.  **Data Collection**: Automated gathering of information from Wikipedia via API.
@@ -13,7 +19,7 @@ The system implements a complete RAG pipeline:
 
 ---
 
-## 🏗 Project Structure
+## Project Structure
 
 ### 1. Backend (`rag-qa-engine`)
 - **Framework**: NestJS with Fastify for high-performance networking.
@@ -34,7 +40,7 @@ The system implements a complete RAG pipeline:
 
 ---
 
-## 🛠 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Project
 ```bash
@@ -78,7 +84,7 @@ LLM_MODEL=meta-llama/llama-4-scout-17b-16e-instruct
 
 ---
 
-## 🏃 Execution Flow
+## Execution Flow
 
 ### Step 1: Data Collection
 Gather raw data from Wikipedia using seed keywords:
@@ -109,7 +115,7 @@ Access the app at `http://localhost:3000`.
 
 ---
 
-## 📝 Core Features
+## Core Features
 
 ### Data Collection & Ingestion
 - **Wikipedia Scraper**: Uses the Wikipedia API to collect data based on seed topics and keywords.
