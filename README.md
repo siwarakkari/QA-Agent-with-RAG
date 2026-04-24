@@ -7,7 +7,6 @@ A sophisticated Retrieval-Augmented Generation (RAG) system designed to provide 
 
 
 
-https://github.com/user-attachments/assets/1ee6cf18-5ea0-43e6-ac29-a9ae24d96ad9
 
 
 
