@@ -46,7 +46,6 @@ The system implements a complete RAG pipeline:
 ### 1. Clone the Project
 ```bash
 git clone <repository-url>
-cd QA_agent
 ```
 
 ### 2. Install Dependencies
