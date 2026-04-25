@@ -1,0 +1,480 @@
+{
+  "timestamp": "2026-04-24T23-18-30-172Z",
+  "config": {
+    "apiUrl": "http://localhost:3002/chat",
+    "collection": "wwii_corpus",
+    "judgeModel": "meta-llama/llama-4-scout-17b-16e-instruct"
+  },
+  "summary": {
+    "totalCases": 12,
+    "successfulCases": 12,
+    "avgRelevance": "5.00",
+    "avgGroundedness": "4.58",
+    "avgCitationAccuracy": "0.96"
+  },
+  "results": [
+    {
+      "id": 1,
+      "category": "factual",
+      "question": "When did World War II begin and end?",
+      "answer": "World War II is generally considered to have begun on 1 September 1939, when Nazi Germany, under Adolf Hitler, invaded Poland [6]. The war ended on 2 September 1945 [8]. This global conflict involved two coalitions: the Allies and the Axis powers, and lasted for approximately six years [8]. The start of the war was marked by the invasion of Poland, which led to the United Kingdom and France declaring war on Germany [6]. Adolf Hitler's Nazi Germany played a significant role in the initiation of the war [1].",
+      "citations": [
+        {
+          "id": 6,
+          "sourceTitle": "World War II",
+          "excerpt": "World War II began on 1 September 1939, when Nazi Germany, under Adolf Hitler, invaded Poland"
+        },
+        {
+          "id": 8,
+          "sourceTitle": "World War II",
+          "excerpt": "World War II, or the Second World War (1 September 1939 – 2 September 1945), was a global conflict"
+        },
+        {
+          "id": 1,
+          "sourceTitle": "Adolf Hitler",
+          "excerpt": "Adolf Hitler"
+        }
+      ],
+      "scores": {
+        "relevance": 5,
+        "groundedness": 4,
+        "citationAccuracy": 1,
+        "citationCount": 3,
+        "relevanceReason": "The answer fully addresses the question with specific dates for the beginning and end of World War II.",
+        "groundednessReason": "Most claims are backed by citations, but the claim about the war lasting approximately six years is not explicitly cited."
+      },
+      "durationMs": 2451
+    },
+    {
+      "id": 2,
+      "category": "factual",
+      "question": "Who were the main leaders of Nazi Germany during World War II?",
+      "answer": "The main leaders of Nazi Germany during World War II were primarily Adolf Hitler, who dominated the country's war effort [9]. Other key military leaders included Hermann Göring, Wilhelm Keitel, Alfred Jodl, Erich Raeder, and Karl Dönitz, who were later tried at the Nuremberg trials [8]. Adolf Hitler, as the leader of Nazi Germany, was the primary Axis Power in the European Theatre, and his leadership style significantly influenced the country's actions during the war [7][9].",
+      "citations": [
+        {
+          "id": 9,
+          "sourceTitle": "Adolf Hitler",
+          "excerpt": "Hitler dominated his country's war effort during World War II"
+        },
+        {
+          "id": 8,
+          "sourceTitle": "Nuremberg trials",
+          "excerpt": "The military leaders were Hermann Göring, Wilhelm Keitel, Alfred Jodl, Erich Raeder, and Karl Dönitz"
+        },
+        {
+          "id": 7,
+          "sourceTitle": "World War II by country",
+          "excerpt": "Nazi Germany, led by Adolf Hitler, was the primary Axis Power"
+        }
+      ],
+      "scores": {
+        "relevance": 5,
+        "groundedness": 4,
+        "citationAccuracy": 1,
+        "citationCount": 3,
+        "relevanceReason": "The answer fully addresses the question with a list of main leaders of Nazi Germany during World War II.",
+        "groundednessReason": "Most claims are backed by citations, but not every claim has a citation."
+      },
+      "durationMs": 1879
+    },
+    {
+      "id": 3,
+      "category": "factual",
+      "question": "What was the Battle of Stalingrad?",
+      "answer": "The Battle of Stalingrad was a major battle on the Eastern Front of World War II, fought between Nazi Germany and its Axis allies against the Soviet Union for control of the city of Stalingrad in southern Russia [1]. The battle began in July 1942 and lasted until February 1943, becoming the bloodiest and fiercest battle of the entire war [3][4].\n\nThe battle was a significant turning point in the war, as it marked a pivotal defeat for the German forces and a major victory for the Soviet Union. In June 1942, the German Army began a major offensive in Southern Russia, threatening Stalingrad, and Stalin ordered the Red Army to hold the city at all costs [3]. The battle was characterized by intense fighting and heavy casualties on both sides, with historian Jochen Hellbeck describing it as \"the most ferocious and lethal battle in human history\" [4].\n\nThe Soviet Union ultimately emerged victorious, with the German forces surrendering in February 1943 [6]. The Battle of Stalingrad was a representative of the battle of wills between Hitler and Stalin, with both leaders determined to claim victory [9]. The battle was a significant milestone in the war, as it stopped further invasion of the Soviet Union by German forces and marked a major shift in momentum in favor of the Allies [7].",
+      "citations": [
+        {
+          "id": 1,
+          "sourceTitle": "Battle of Stalingrad",
+          "excerpt": "The Battle of Stalingrad was a major battle on the Eastern Front of World War II"
+        },
+        {
+          "id": 3,
+          "sourceTitle": "Joseph Stalin",
+          "excerpt": "Stalin ordered the Red Army to hold the city at all costs"
+        },
+        {
+          "id": 4,
+          "sourceTitle": "Battle of Stalingrad",
+          "excerpt": "the most ferocious and lethal battle in human history"
+        },
+        {
+          "id": 6,
+          "sourceTitle": "Joseph Stalin",
+          "excerpt": "the German forces attacking Stalingrad surrendered"
+        },
+        {
+          "id": 7,
+          "sourceTitle": "European theatre of World War II",
+          "excerpt": "the Soviets stopped further invasion of their country"
+        },
+        {
+          "id": 9,
+          "sourceTitle": "Battle of Stalingrad",
+          "excerpt": "the battle between German and Soviet forces was representative of the battle of wills between Hitler and Stalin"
+        }
+      ],
+      "scores": {
+        "relevance": 5,
+        "groundedness": 5,
+        "citationAccuracy": 1,
+        "citationCount": 6,
+        "relevanceReason": "The answer fully addresses the question with appropriate detail about the Battle of Stalingrad.",
+        "groundednessReason": "Every claim in the answer is backed by a citation, with no apparent hallucinations."
+      },
+      "durationMs": 2774
+    },
+    {
+      "id": 4,
+      "category": "factual",
+      "question": "What was the Holocaust?",
+      "answer": "The Holocaust, also known as the Shoah, was a genocide of European Jews during World War II, in which Nazi Germany and its collaborators systematically murdered around six million Jews across German-occupied Europe, approximately two-thirds of Europe's Jewish population [6]. This brutal event began in 1941 and lasted until 1945, and was a result of the Nazi Party's \"Final Solution\" to the \"Jewish question\", a program of mass extermination agreed upon by Hitler, Heinrich Himmler, and Reinhard Heydrich [5].\n\nThe Holocaust was characterized by the industrial killing of millions of human beings in factories of death, ordered by a modern state, organized by a conscientious bureaucracy, and supported by a law-abiding, patriotic 'civilized' society [8]. It has been described as \"perhaps the most savage and significant single crime in recorded history\" and one of the most barbaric events in the twentieth century [9].\n\nThe Holocaust began with a series of directives and propaganda efforts by the Nazi regime, including the Propaganda Ministry's issuance of two dozen directives every week on what news should be published and what angles to use [2]. The Nazi regime's racial policy and eugenics program, which aimed to eliminate Jews and other perceived undesirables, ultimately led to the systematic murder of six million Jews [3].\n\nThe Holocaust is widely regarded as a unique and devastating event in modern history, and its legacy continues to be felt today. In West Germany, a self-critical memory of the Holocaust developed in the 1970s and 1980s, and spread to some other western European countries [10].",
+      "citations": [
+        {
+          "id": 6,
+          "sourceTitle": "The Holocaust",
+          "excerpt": "The Holocaust, known in Hebrew as the Shoah, was the genocide of European Jews during World War II."
+        },
+        {
+          "id": 5,
+          "sourceTitle": "European theatre of World War II",
+          "excerpt": "Hitler and other Nazi Party leaders including Heinrich Himmler and Reinhard Heydrich agree on a program of mass extermination of Jews."
+        },
+        {
+          "id": 8,
+          "sourceTitle": "The Holocaust",
+          "excerpt": "The industrial killing of millions of human beings in factories of death, ordered by a modern state."
+        },
+        {
+          "id": 9,
+          "sourceTitle": "The Holocaust",
+          "excerpt": "Perhaps the most savage and significant single crime in recorded history."
+        },
+        {
+          "id": 2,
+          "sourceTitle": "Nazi Germany",
+          "excerpt": "Propaganda Ministry issued two dozen directives every week on exactly what news should be published."
+        },
+        {
+          "id": 3,
+          "sourceTitle": "Nazi Germany",
+          "excerpt": "The Holocaust and Final Solution."
+        },
+        {
+          "id": 10,
+          "sourceTitle": "The Holocaust",
+          "excerpt": "In West Germany, a self-critical memory of the Holocaust developed in the 1970s and 1980s."
+        }
+      ],
+      "scores": {
+        "relevance": 5,
+        "groundedness": 5,
+        "citationAccuracy": 1,
+        "citationCount": 7,
+        "relevanceReason": "The answer fully addresses the question about the Holocaust with appropriate detail.",
+        "groundednessReason": "Every claim in the answer is backed by a citation, with no apparent hallucinations."
+      },
+      "durationMs": 2591
+    },
+    {
+      "id": 5,
+      "category": "factual",
+      "question": "What was the significance of D-Day?",
+      "answer": "D-Day, which occurred on June 6, 1944, was a pivotal moment in World War II, marking the Allied invasion of Normandy, France. The operation, code-named Operation Neptune, was the largest seaborne invasion in history, and it marked a crucial turning point in the war. The successful landing of troops and equipment on the beaches of Normandy allowed the Allies to establish a foothold in Western Europe, which ultimately led to the defeat of Germany.\n\nWinston Churchill, the Prime Minister of the United Kingdom at the time, was heavily involved in the planning and execution of D-Day. He was determined to be actively involved in the Normandy invasion and hoped to cross the Channel on D-Day or at least D-Day+1 [3].\n\nThe Allies' efforts to prepare for D-Day included the destruction of the French railway system prior to the invasion, which was successful [8]. The invasion itself was a massive operation, involving thousands of troops, vehicles, and equipment. The Allies were able to establish a tenuous beachhead, which was expanded over the following days, and the D-Day objectives were accomplished by D+3 (June 9) [5].\n\nThe significance of D-Day cannot be overstated, as it marked a major shift in the balance of power in Europe. The successful invasion of Normandy paved the way for the liberation of Western Europe from German occupation and ultimately contributed to the defeat of Germany [6].",
+      "citations": [
+        {
+          "id": 3,
+          "sourceTitle": "Winston Churchill",
+          "excerpt": "hoped to cross the Channel on D-Day or at least D-Day+1"
+        },
+        {
+          "id": 8,
+          "sourceTitle": "Battle of the Bulge",
+          "excerpt": "The Allies' efforts to destroy the French railway system prior to D-Day were successful"
+        },
+        {
+          "id": 5,
+          "sourceTitle": "Operation Overlord",
+          "excerpt": "the D-Day objectives were accomplished by D+3 (9 June)"
+        },
+        {
+          "id": 6,
+          "sourceTitle": "World War II",
+          "excerpt": "Western Allies invaded northern France"
+        }
+      ],
+      "scores": {
+        "relevance": 5,
+        "groundedness": 4,
+        "citationAccuracy": 1,
+        "citationCount": 4,
+        "relevanceReason": "The answer fully addresses the question about the significance of D-Day with appropriate detail.",
+        "groundednessReason": "Most claims are backed by citations, but one or two claims appear uncited but are clearly plausible."
+      },
+      "durationMs": 2858
+    },
+    {
+      "id": 6,
+      "category": "multi_document",
+      "question": "How did the war in Europe differ from the war in the Pacific theater?",
+      "answer": "The war in Europe and the war in the Pacific theater differed significantly in terms of geography, participants, and scope. The Pacific War, also known as the Asia-Pacific War, was fought between Japan and the Allies in East and Southeast Asia, the Pacific and Indian Oceans, and Oceania [1]. In contrast, the European theater of World War II involved a broader range of countries and theaters, including the war in Europe, the North African Campaign, and the Atlantic theater.\n\nNotably, Germany and Italy had limited involvement in the Pacific War [5], whereas they played a significant role in the European theater. The Pacific War was geographically the largest theater of the war, encompassing the Pacific Ocean theater, the South West Pacific theater, the Second Sino-Japanese War, and the brief Soviet-Japanese War [4].\n\nThe war in the Pacific theater was primarily a naval war, characterized by some of the largest naval battles in history [4]. In contrast, the European theater involved a mix of land, air, and sea battles. The distinction between the Pacific War and World War II was not always clear-cut, as in Allied countries, the \"Pacific War\" was often referred to as the War against Japan or simply part of World War II [8].\n\nOverall, while both theaters were part of the larger conflict of World War II, the war in the Pacific theater had distinct characteristics, including its geography, participants, and military strategies, which set it apart from the war in Europe.",
+      "citations": [
+        {
+          "id": 1,
+          "sourceTitle": "Pacific War",
+          "excerpt": "fought between Japan and the Allies in East and Southeast Asia"
+        },
+        {
+          "id": 5,
+          "sourceTitle": "Pacific War",
+          "excerpt": "Germany and Italy had limited involvement in the Pacific War"
+        },
+        {
+          "id": 4,
+          "sourceTitle": "Pacific War",
+          "excerpt": "geographically the largest theater of the war"
+        },
+        {
+          "id": 8,
+          "sourceTitle": "Pacific War",
+          "excerpt": "In Allied countries, the 'Pacific War' was not usually distinguished from World War II"
+        }
+      ],
+      "scores": {
+        "relevance": 5,
+        "groundedness": 4,
+        "citationAccuracy": 1,
+        "citationCount": 4,
+        "relevanceReason": "The answer fully addresses the question with appropriate detail, providing a comprehensive comparison between the war in Europe and the war in the Pacific theater.",
+        "groundednessReason": "Most claims are backed by citations, but there are a few uncited but clearly plausible statements, such as the characterization of the war in the Pacific as primarily a naval war."
+      },
+      "durationMs": 2259
+    },
+    {
+      "id": 7,
+      "category": "multi_document",
+      "question": "What were the main causes of World War II and how did they relate to World War I?",
+      "answer": "The causes of World War II were complex and multifaceted, but they were largely rooted in the aftermath of World War I. The unresolved tensions in the aftermath of World War I, including the rise of fascism in Europe and militarism in Japan, contributed to the outbreak of World War II [1]. Historians have given considerable attention to the causes of World War II, which suggests that the war was not simply a random event, but rather the result of a complex interplay of factors [3].\n\nThe rise of fascist and nationalist ideologies in Europe, particularly in Germany, Italy, and Japan, was a significant factor in the lead-up to World War II. In Germany, the rise of Nazi Party, led by Adolf Hitler, was a major contributor to the outbreak of war [6]. The aggressive expansion of Japan in Asia and the Pacific also played a significant role in the lead-up to the war [9].\n\nThe Treaty of Versailles, which ended World War I, imposed harsh penalties on Germany, including significant territorial losses and reparations. This led to widespread resentment and a desire for revenge among the German people, which Hitler and the Nazi Party were able to exploit [1]. The failure of the League of Nations to prevent the Italian invasion of Ethiopia in 1935 and the Japanese invasion of China in 1937 also emboldened aggressive powers and contributed to the outbreak of war.\n\nOverall, the causes of World War II were closely tied to the aftermath of World War I, including the rise of fascist and nationalist ideologies, the failure of the League of Nations, and the unresolved tensions and resentments that lingered after the first war. These factors created a volatile international environment in which the outbreak of war became increasingly likely [1].",
+      "citations": [
+        {
+          "id": 1,
+          "sourceTitle": "World War II",
+          "excerpt": "unresolved tensions in the aftermath of World War I and the rise of fascism in Europe and militarism in Japan"
+        },
+        {
+          "id": 3,
+          "sourceTitle": "Causes of World War II",
+          "excerpt": "The causes of World War II have been given considerable attention by historians"
+        },
+        {
+          "id": 6,
+          "sourceTitle": "Adolf Hitler",
+          "excerpt": "Start of World War II"
+        },
+        {
+          "id": 9,
+          "sourceTitle": "Empire of Japan",
+          "excerpt": "World War II (1941–1945)"
+        }
+      ],
+      "scores": {
+        "relevance": 5,
+        "groundedness": 4,
+        "citationAccuracy": 1,
+        "citationCount": 4,
+        "relevanceReason": "The answer fully addresses the question with appropriate detail on the causes of World War II and their relation to World War I.",
+        "groundednessReason": "Most claims are backed by citations, but there are a few uncited but clearly plausible statements."
+      },
+      "durationMs": 4529
+    },
+    {
+      "id": 8,
+      "category": "multi_document",
+      "question": "Compare the military strategies used by the Allies and the Axis powers.",
+      "answer": "The Allies and the Axis powers employed distinct military strategies during World War II. The Axis powers, comprising Germany, Italy, and Japan, initially achieved significant territorial gains through swift and decisive military campaigns [1]. Their strategy focused on rapid expansion and securing key resources, but ultimately, it was the Allies who gained the upper hand.\n\nThe Allies, consisting of nations such as the United States, the United Kingdom, and the Soviet Union, adopted a more collaborative and adaptive approach [3]. They worked closely together, sharing resources and intelligence to counter the Axis powers' advances [8]. The Allies' strategy involved a combination of defensive and offensive operations, including the use of tactical innovations that would later be employed during the Normandy landings [1].\n\nA significant disparity in economic resources existed between the two alliances, with the Allied powers outnumbering the Axis powers by 2.7 to 1 [7]. This advantage allowed the Allies to maintain a strong military presence and ultimately contribute to the defeat of the Axis powers [5].\n\nThe leadership of key figures, such as Franklin D. Roosevelt, also played a crucial role in shaping the Allies' military strategy [8]. In contrast, notable Axis leaders like Erwin Rommel demonstrated exceptional military tactical skills, earning him numerous awards and accolades, including the Knight's Cross of the Iron Cross with Oak Leaves, Swords, and Diamonds [9].\n\nThe outcome of the war was a testament to the effectiveness of the Allies' strategy, as they successfully countered the Axis powers' advances and ultimately secured victory [6].",
+      "citations": [
+        {
+          "id": 1,
+          "sourceTitle": "European theatre of World War II",
+          "excerpt": "The tactics of the operation would be used the Allies during the later Normandy landings."
+        },
+        {
+          "id": 3,
+          "sourceTitle": "European theatre of World War II",
+          "excerpt": "The Axis' main opponents would be the Allies, a name reused from the Allies who were the main opponent of the Central Powers in World War"
+        },
+        {
+          "id": 5,
+          "sourceTitle": "World War II by country",
+          "excerpt": "The United States played a crucial role in the Allied victory over the Axis powers."
+        },
+        {
+          "id": 6,
+          "sourceTitle": "European theatre of World War II",
+          "excerpt": "Both campaigns were successful for the Allies."
+        },
+        {
+          "id": 7,
+          "sourceTitle": "Axis powers",
+          "excerpt": "Thus the Allied powers outnumbered the Axis powers by 2.7 to 1."
+        },
+        {
+          "id": 8,
+          "sourceTitle": "Franklin D. Roosevelt",
+          "excerpt": "He worked closely with other national leaders in leading the Allies against the Axis powers."
+        },
+        {
+          "id": 9,
+          "sourceTitle": "Erwin Rommel",
+          "excerpt": "Military Merit Order (Württemberg) Friedrich Order Knight 1st Class (Württemberg) Military Merit Cross"
+        }
+      ],
+      "scores": {
+        "relevance": 5,
+        "groundedness": 5,
+        "citationAccuracy": 1,
+        "citationCount": 7,
+        "relevanceReason": "The answer fully addresses the question by comparing the military strategies used by the Allies and the Axis powers.",
+        "groundednessReason": "Every claim in the answer is backed by a cited source, with no hallucinations or unsupported claims."
+      },
+      "durationMs": 8773
+    },
+    {
+      "id": 9,
+      "category": "followup",
+      "question": "What was the Battle of Stalingrad?",
+      "answer": "The Battle of Stalingrad was a major battle on the Eastern Front of World War II, fought between Nazi Germany and its Axis allies against the Soviet Union, for control of the city of Stalingrad in southern Russia [1]. It was a protracted and brutal battle that became the bloodiest and fiercest battle of the entire war, with historian Jochen Hellbeck describing it as \"the most ferocious and lethal battle in human history\" [4].\n\nThe battle began in June 1942, when the German Army launched a major offensive in Southern Russia, threatening Stalingrad. Joseph Stalin ordered the Red Army to hold the city at all costs, resulting in a prolonged and intense battle [3]. The Soviet forces ultimately prevailed, and in February 1943, the German forces attacking Stalingrad surrendered [6].\n\nThe Battle of Stalingrad marked a significant turning point in the war, as it thwarted the German invasion of the Soviet Union and paved the way for the Soviet counterattack. It was a pivotal moment in the European theatre of World War II, as it stopped further invasion of the Soviet Union and led to a shift in momentum in favor of the Allies [7]. The battle was also characterized as a \"battle of wills\" between Hitler and Stalin, with both leaders determined to emerge victorious [9].\n\nThe battle's significance extends beyond its outcome, as it had far-reaching implications for the war's progression and the fate of the countries involved. The Soviet Union's victory at Stalingrad was a crucial factor in the ultimate defeat of Nazi Germany, and it cemented the city's place in history as a symbol of Soviet resilience and determination.",
+      "citations": [
+        {
+          "id": 1,
+          "sourceTitle": "Battle of Stalingrad",
+          "excerpt": "The Battle of Stalingrad was a major battle on the Eastern Front of World War II"
+        },
+        {
+          "id": 3,
+          "sourceTitle": "Joseph Stalin",
+          "excerpt": "Stalin ordered the Red Army to hold the city at all costs"
+        },
+        {
+          "id": 4,
+          "sourceTitle": "Battle of Stalingrad",
+          "excerpt": "the most ferocious and lethal battle in human history"
+        },
+        {
+          "id": 6,
+          "sourceTitle": "Joseph Stalin",
+          "excerpt": "the German forces attacking Stalingrad surrendered"
+        },
+        {
+          "id": 7,
+          "sourceTitle": "European theatre of World War II",
+          "excerpt": "stopped further invasion of their country at the Battle of Stalingrad"
+        },
+        {
+          "id": 9,
+          "sourceTitle": "Battle of Stalingrad",
+          "excerpt": "the battle of wills between Hitler and Stalin"
+        }
+      ],
+      "scores": {
+        "relevance": 5,
+        "groundedness": 5,
+        "citationAccuracy": 1,
+        "citationCount": 6,
+        "relevanceReason": "The answer fully addresses the question with appropriate detail about the Battle of Stalingrad.",
+        "groundednessReason": "Every claim in the answer is backed by a citation, with no apparent hallucinations."
+      },
+      "durationMs": 13657
+    },
+    {
+      "id": 10,
+      "category": "followup",
+      "question": "How many casualties were there?",
+      "answer": "The Battle of Stalingrad was one of the bloodiest battles in human history, with estimated casualties exceeding 1 million [5][8]. According to historian G. G. Matishov, Germany and its allies suffered more than 880,000 casualties from November 1942 to early February 1943 [3]. The Soviet Union also suffered heavily, with historian Edwin P. Hoyt stating that over 3 million Russians and Germans died over the months of contesting the city's rubble [5].\n\nIn terms of civilian casualties, research by Russian historian Tatyana Pavlova calculated that 185,232 people had died in the city of Stalingrad by the battle's conclusion, with an additional 50,000 deaths in the rural areas of Stalingrad, totaling 235,232 civilian deaths [1].\n\nThe battle's total death toll, including both military and civilian losses, is estimated to be over 1.5 million, making it the costliest land battle in history [8]. Historian Jochen Hellbeck described the lethality of the battle as \"the most ferocious and lethal battle in human history\" [6].",
+      "citations": [
+        {
+          "id": 5,
+          "sourceTitle": "Battle of Stalingrad",
+          "excerpt": "Historian Edwin P. Hoyt states well over a million men and women died"
+        },
+        {
+          "id": 3,
+          "sourceTitle": "Battle of Stalingrad",
+          "excerpt": "Germany and its allies suffered more than 880,000 casualties"
+        },
+        {
+          "id": 8,
+          "sourceTitle": "Battle of Stalingrad",
+          "excerpt": "the bloodletting at Stalingrad far exceeded that of Verdun"
+        },
+        {
+          "id": 1,
+          "sourceTitle": "Battle of Stalingrad",
+          "excerpt": "185,232 people had died in the city of Stalingrad"
+        },
+        {
+          "id": 6,
+          "sourceTitle": "Battle of Stalingrad",
+          "excerpt": "the most ferocious and lethal battle in human history"
+        }
+      ],
+      "scores": {
+        "relevance": 5,
+        "groundedness": 5,
+        "citationAccuracy": 1,
+        "citationCount": 5,
+        "relevanceReason": "The answer fully addresses the question with detailed information on casualties.",
+        "groundednessReason": "Every claim in the answer is backed by a cited source."
+      },
+      "durationMs": 18768
+    },
+    {
+      "id": 11,
+      "category": "out_of_scope",
+      "question": "What is the current GDP of Germany?",
+      "answer": "I don't have enough information in my knowledge base to answer that question. The provided context only offers historical data on the economic situation of various countries during World War II, but it does not provide current GDP figures for Germany or any other country [3][5][7].",
+      "citations": [
+        {
+          "id": 3,
+          "sourceTitle": "Nazi Germany",
+          "excerpt": "Germany was still in a dire economic situation, as six million people were unemployed"
+        },
+        {
+          "id": 5,
+          "sourceTitle": "Axis powers",
+          "excerpt": "The wartime gross domestic product (GDP) of the Axis was $911 billion"
+        },
+        {
+          "id": 7,
+          "sourceTitle": "Axis powers",
+          "excerpt": "The GDP of the Allied powers was $1,798 billion"
+        }
+      ],
+      "scores": {
+        "relevance": 5,
+        "groundedness": 5,
+        "citationAccuracy": 1,
+        "citationCount": 3,
+        "relevanceReason": "The answer appropriately declines to answer the question, recognizing it is outside the scope of the provided context.",
+        "groundednessReason": "The answer cites relevant context markers [3][5][7] to support its claim of lacking current GDP information."
+      },
+      "durationMs": 12356
+    },
+    {
+      "id": 12,
+      "category": "out_of_scope",
+      "question": "Who won the 2024 US presidential election?",
+      "answer": "I don't have enough information in my knowledge base to answer that question.",
+      "citations": [],
+      "scores": {
+        "relevance": 5,
+        "groundedness": 5,
+        "citationAccuracy": 0.5,
+        "citationCount": 0,
+        "relevanceReason": "The answer appropriately declines to answer an out-of-scope question.",
+        "groundednessReason": "The answer clearly states it lacks information, implying no unsupported claims."
+      },
+      "durationMs": 4752
+    }
+  ]
+}

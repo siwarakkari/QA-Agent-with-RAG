@@ -6,7 +6,7 @@ export const CitationSchema = z.object({
     z.object({
       id         : z.number().int().positive(),
       sourceTitle: z.string(),
-      excerpt    : z.string().max(200),
+      excerpt    : z.string().max(250),
     }),
   ),
 });

@@ -18,7 +18,9 @@
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "collect_data": "ts-node src/data_collection/data_collection.pipeline.ts",
-    "ingest": "ts-node src/ingestion/ingestion.pipeline.ts"
+    "ingest": "ts-node src/ingestion/ingestion.pipeline.ts",
+    "evaluate": "ts-node src/evaluation/evaluation.main.ts"
+
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^3.0.71",

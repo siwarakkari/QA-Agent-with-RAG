@@ -5,6 +5,7 @@ import { WikipediaModule } from './data_collection/wikipedia/wikipedia.module';
 import { CorpusModule } from './data_collection/corpus/corpus.module';
 import { IngestionModule } from './ingestion/ingestion.module';
 import { ChatModule } from './chat/chat.module';
+import { EvaluationModule } from './evaluation/evaluation.module';
 
 @Module({
   imports: [
@@ -13,6 +14,7 @@ import { ChatModule } from './chat/chat.module';
     CorpusModule,
     IngestionModule,
     ChatModule,
+    EvaluationModule,
   ],
 })
 export class AppModule { }

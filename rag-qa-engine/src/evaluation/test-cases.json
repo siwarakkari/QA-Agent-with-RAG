@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "category": "factual",
+    "question": "When did World War II begin and end?",
+    "expected_topics": ["1939", "1945", "September"],
+    "followup_of": null
+  },
+  {
+    "id": 2,
+    "category": "factual",
+    "question": "Who were the main leaders of Nazi Germany during World War II?",
+    "expected_topics": ["Hitler", "Nazi", "Germany"],
+    "followup_of": null
+  },
+  {
+    "id": 3,
+    "category": "factual",
+    "question": "What was the Battle of Stalingrad?",
+    "expected_topics": ["Stalingrad", "Soviet", "Germany"],
+    "followup_of": null
+  },
+  {
+    "id": 4,
+    "category": "factual",
+    "question": "What was the Holocaust?",
+    "expected_topics": ["Jews", "genocide", "Nazi"],
+    "followup_of": null
+  },
+  {
+    "id": 5,
+    "category": "factual",
+    "question": "What was the significance of D-Day?",
+    "expected_topics": ["Normandy", "invasion", "Allied"],
+    "followup_of": null
+  },
+  {
+    "id": 6,
+    "category": "multi_document",
+    "question": "How did the war in Europe differ from the war in the Pacific theater?",
+    "expected_topics": ["Pacific", "Europe", "Japan", "Germany"],
+    "followup_of": null
+  },
+  {
+    "id": 7,
+    "category": "multi_document",
+    "question": "What were the main causes of World War II and how did they relate to World War I?",
+    "expected_topics": ["Treaty", "Versailles", "reparations", "Hitler"],
+    "followup_of": null
+  },
+  {
+    "id": 8,
+    "category": "multi_document",
+    "question": "Compare the military strategies used by the Allies and the Axis powers.",
+    "expected_topics": ["Allied", "Axis", "strategy", "military"],
+    "followup_of": null
+  },
+  {
+    "id": 9,
+    "category": "followup",
+    "question": "What was the Battle of Stalingrad?",
+    "expected_topics": ["Stalingrad", "Soviet", "Germany"],
+    "followup_of": null
+  },
+  {
+    "id": 10,
+    "category": "followup",
+    "question": "How many casualties were there?",
+    "expected_topics": ["casualties", "killed", "million"],
+    "followup_of": 9,
+    "note": "Depends on context from question 9 — requires query rewriting"
+  },
+  {
+    "id": 11,
+    "category": "out_of_scope",
+    "question": "What is the current GDP of Germany?",
+    "expected_topics": [],
+    "expected_behavior": "refuse_or_deflect",
+    "followup_of": null
+  },
+  {
+    "id": 12,
+    "category": "out_of_scope",
+    "question": "Who won the 2024 US presidential election?",
+    "expected_topics": [],
+    "expected_behavior": "refuse_or_deflect",
+    "followup_of": null
+  }
+]
