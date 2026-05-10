@@ -11,9 +11,7 @@ interface Citation {
   excerpt    : string;
 }
 
-interface CitationsData {
-  citations: Citation[];
-}
+
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -177,16 +175,7 @@ export default function ChatPage() {
   console.log('Response received:');
 
 
-  // useChat from @ai-sdk/react
-  // - api: points directly at the NestJS backend
-  // - body: extra fields sent with every request
-  // - streamProtocol: 'data' — tells useChat to read the AI SDK UI stream format
-  //   (x-vercel-ai-ui-message-stream header + JSON-encoded chunks)
-  //
-  // onData: called for every data-* chunk from the server.
-  // The server sends { type: 'data-citations', data: { citations: [...] } }.
-  // The AI SDK strips the 'data-' prefix so onData receives the raw data object.
-    
+ 
   const {
     messages,
     input,
@@ -242,9 +231,8 @@ useEffect(() => {
       console.error("Failed to parse citations from stream:", e);
     }
   }
-}, [messages]); // Listen to messages changes
+}, [messages]); 
 
-  // Auto-scroll to bottom on new content
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
